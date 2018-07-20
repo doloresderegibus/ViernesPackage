@@ -120,4 +120,5 @@ readEcoNetwork <- function(fileName){
   return(g)
 }
 
-
+require(devtools)
+install_github("doloresderegibus/ViernesPackage")
