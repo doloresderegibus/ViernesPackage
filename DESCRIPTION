@@ -2,20 +2,19 @@ Package: ViernesPackage
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.9000
-Author@R: person("Dolores", "Deregibus", email="dolidd@yahoo.com", role=c("cre",",man"))
-person("Carolina", "Matula", email="caromatula@gmail.com", role=c("aut"))
+Author@R: 
+  person("Dolores", "Deregibus", email="dolidd@yahoo.com", role= "cre")
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Depends:R(>=3.5.1)
+Depends:R(>= 3.5.1)
 Imports:
-lubridate(>=1.7.4),
-ggplot2(>=3.0.0),
-igraph(>=1.1.2)
-
+  lubridate(>= 1.7.4),
+  ggplot2(>= 3.0.0),
+  igraph(>= 1.1.2)
 URL: http://github.com/doloresderegibus/PackageViernes
 
 
